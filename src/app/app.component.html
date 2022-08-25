@@ -1,0 +1,13 @@
+<div class="container">
+  <app-header></app-header>
+</div>
+<br><br><br>
+<div class="container">
+  <span>Número 1</span> <input #num1 type="number" id="num1" /> +
+  <span>Número 2</span> <input #num2 type="number" id="num2" />
+  <br><br><br>
+  <button (click)="printAdd(num1.value, num2.value)" id="button">Add!!!</button>
+  <br><br><br>
+  <span>Resultado</span> <input #result type="text" id="result" />
+</div>
+
